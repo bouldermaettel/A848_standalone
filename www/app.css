@@ -1,0 +1,145 @@
+.shiny-notification {
+            height: 100px;
+            color: #1f2021;
+            font-size:30px;
+            width: 500px;
+            position:fixed;
+            top: calc(20% - 50px);;
+            left: calc(50% + 50px);;
+          }
+
+.irs-bar {
+    border-color: transparent; !important;
+  background-color: transparent;!important
+}
+
+ .progress-bar {
+  background-color: rgba(224, 0, 7, 1);
+ }
+
+ /*get red points after selection of radio buttons*/
+ #data_source label:after {
+  color: rgba(224, 0, 7, 1);
+ }
+
+#hide {
+  display:block;
+  height: 40px;
+  width: 60px;
+  border-radius: 5%;
+  border: 1px solid black;
+    padding-top:10px; !important;
+    color: black; !important;
+
+}
+
+#show {
+  display:block;
+  height: 40px;
+  width: 200px;
+  border-radius: 5%;
+  border: 1px solid black;
+    padding-top:10px; !important;
+    color: black; !important;
+}
+
+#excel {
+  display:block;
+  height: 40px;
+  width: 80px;
+  border-radius: 5%;
+  border: 1px solid black;
+    padding-top:10px; !important;
+    color: #2a2828; !important;
+    font-size: 20px; !important;
+}
+
+#edit_table {
+  display:block;
+  height: 40px;
+  width: 80px;
+  border-radius: 5%;
+  border: 1px solid black;
+    padding-top:10px; !important;
+    color: #2a2828; !important;
+    font-size: 20px; !important;
+}
+
+#xlsx {
+  display:block;
+  height: 40px;
+  width: 80px;
+  border-radius: 5%;
+  border: 1px solid black;
+    padding-top:10px; !important;
+    color: #2a2828; !important;
+    font-size: 20px; !important;
+}
+
+.skin-red-light .main-header .navbar {
+    background-color: #868080; !important;
+}
+
+/*navbar color (header)*/
+.navbar {
+    background-color: rgba(224, 0, 7, 1) !important;
+    }
+
+/*font color of sidebar buttons etc*/
+.skin-red-light .main-sidebar .sidebar{
+  color: black;}
+
+/*font color of sidebar menuItems*/
+.skin-red-light .main-sidebar .sidebar .sidebar-menu a{
+ color: black;
+}
+
+/*color of active menuItem same as the red in the top bar*/
+.skin-red-light .main-sidebar .sidebar .sidebar-menu .active a{
+ background-color: rgba(224, 0, 7, 1);
+color: rgb(255,255,255);font-weight: bold;font-size: 16px;
+}
+
+.skin-red-light .main-sidebar .sidebar .sidebar-menu a:hover{
+ background-color: rgba(218, 215, 216, 1);
+color: rgb(255,255,255);font-weight: bold;font-size: 16px;
+}
+
+/* body */
+.content-wrapper, .right-side {
+background-color: white;
+    }
+
+.skin-red-light .main-header .logo  {
+    background-color: white;border-bottom: 0 solid transparent;
+    min-height: 55px; !important;
+}
+
+.skin-red-light .main-header .logo:hover {
+    background-color: white;border-bottom: 0 solid transparent;
+}
+
+input[type='radio']:checked {
+  content: '✔';
+  color: white;
+  background-color: rgba(224, 0, 7, 1);
+}
+
+.modal-dialog {
+    width: fit-content !important;
+}
+.modal-body{
+        height: fit-content !important;
+}
+
+/*.radio-item input[type=radio]:checked + label:after {*/
+/*  border-radius: 11px;*/
+/*  width: 12px;*/
+/*  height: 12px;*/
+/*  position: absolute;*/
+/*  top: 9px;*/
+/*  left: 10px;*/
+/*  content: " ";*/
+/*  display: block;*/
+/*  background-color: rgba(224, 0, 7, 1);*/
+/*}*/
