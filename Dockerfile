@@ -54,7 +54,7 @@ COPY Rprofile.site /usr/lib/R/etc/
 EXPOSE 3838
 EXPOSE 5432
 
-CMD ["R", "-e", "shiny::runApp('/root/app.R')"]
+CMD ["R", "-e", "shiny::runApp('/root/app/app.R')"]
 
 
 # docker build -t test-app .

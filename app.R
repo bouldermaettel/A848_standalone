@@ -143,7 +143,7 @@ observeEvent(input$file_input, {
   inFile <- input$file_input
   ext <- substrRight(inFile$datapath, 4)
   # if (ext == 'xlsm') {
-    data_temp <- tibble::tibble(get_data('/home/bouldermaettel/Desktop/Vereinfachtes_Verfahren.xlsx', 'Sendungen', range = cell_cols('A:P'), col_types = COLTYPES))
+    data_temp <- tibble::tibble(get_data(inFile$datapath, 'Sendungen', range = cell_cols('A:P'), col_types = COLTYPES))
   # define new column names (without ID, that need to be defined first)
   colnames(data_temp) <- COLNAMES[2:length(COLNAMES)]
   # choose right formats of columns
